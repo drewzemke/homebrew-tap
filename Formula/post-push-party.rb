@@ -2,17 +2,17 @@ class PostPushParty < Formula
   desc "Celebrate your git pushes!"
   homepage "https://github.com/drewzemke/post-push-party"
   license "GPL-3.0"
-  version "0.1.8"
+  version "0.1.9"
 
   on_macos do
     on_arm do
       url "https://github.com/drewzemke/post-push-party/releases/download/v#{version}/post-push-party-aarch64-apple-darwin.tar.gz"
-      sha256 "89cbb4ef5dc69c69c4ed5bf6d67da488893938f7eb541c4eb38ecec30d6875b8"
+      sha256 "bfbbf7c40164913f2a742559a14b7373fa272e9c7c9636eb8c9e6097521a8bc3"
     end
 
     on_intel do
       url "https://github.com/drewzemke/post-push-party/releases/download/v#{version}/post-push-party-x86_64-apple-darwin.tar.gz"
-      sha256 "2b6c037191af079be7e738e7af084836218e5fcbf2ff0885acdf38b5b6edbfe9"
+      sha256 "4efee7da28654b25e10d71714b53055e9ad2c6915453969c359455dbd156d1dd"
     end
   end
 
