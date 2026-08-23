@@ -2,17 +2,17 @@ class Tongo < Formula
   desc "A TUI for MongoDB"
   homepage "https://github.com/drewzemke/tongo"
   license "GPL-3.0"
-  version "0.15.5"
+  version "0.15.6"
 
   on_macos do
     on_arm do
       url "https://github.com/drewzemke/tongo/releases/download/v#{version}/tongo-aarch64-apple-darwin.tar.gz"
-      sha256 "263948287a01d785e640becab9fecb5e905f1a570a53120acf9d5f2527847195"
+      sha256 "1ba2e459d4f43acfdd08513d79ee05bb536bbd430f5795330307d0411e3756b2"
     end
 
     on_intel do
       url "https://github.com/drewzemke/tongo/releases/download/v#{version}/tongo-x86_64-apple-darwin.tar.gz"
-      sha256 "6d97d765e59c07a6dd5308d3ac2b2b5c1d15fbf9f8a6339705d3fd717dedb23b"
+      sha256 "e9e8fd6722e6c28e5ffd3b67bb33bf7e0d850c85bffd82111321d613ba541712"
     end
   end
 
